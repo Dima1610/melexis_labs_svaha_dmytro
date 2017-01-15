@@ -1,0 +1,28 @@
+listing_1.1
+
+always @(posedge clk) begin
+
+d_out <= d_in;
+
+end
+
+That`s mean that at every posedge(positive edge) "clk" signal "d_out" will get "d_in" value.
+#######################################################
+
+
+listing_1.2
+
+initial begin
+
+d_in = 0;
+
+@(negedge clk) d_in = 1;
+
+repeat (20) begin
+
+@(negedge clk) d_in = $random();
+
+end
+
+That`s mean that after simulation "d_in" will get value 0. At the first negative edge of "clk" signal "d_in" get`s value 1.
+After that next 20 times on the negative edge of "clk" "d_in" will get random values(0 or 1).  

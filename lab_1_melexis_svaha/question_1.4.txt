@@ -1,0 +1,1 @@
+Comparator from listing 1.14 working not correctly because circuit on logic elements of unsigned comparator differs from circuit of signed comparator.

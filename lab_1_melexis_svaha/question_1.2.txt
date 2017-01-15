@@ -1,0 +1,2 @@
+In the simulation "d_out" will get value when comes positive edge of signal "clk".
+But in the synthesis "d_out" gets value 1 immediately with comes value 0 on signal "set_n".

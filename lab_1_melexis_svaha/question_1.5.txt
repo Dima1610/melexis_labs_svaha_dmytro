@@ -1,0 +1,4 @@
+1.In pipelined processor, insertion of flip flops between modules increases the instruction latency compared to a non-pipelining processor.
+2.Pipelining occupies a larger area.
+3.Pipelining uses more power than non-pipelining circuit.
+4.Pipelining is more complexity than non-pipelinig circuit.

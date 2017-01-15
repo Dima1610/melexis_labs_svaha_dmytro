@@ -1,0 +1,3 @@
+Operator "force" is similar to operator "assign", but we can apply "force" to nets as well as to registers and wires.
+
+Operator "release"  cancel the assignment procedure "force". "Release" works with the same variables as the "force".
