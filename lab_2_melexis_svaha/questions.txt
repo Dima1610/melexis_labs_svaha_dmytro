@@ -1,0 +1,42 @@
+Question 2.1
+
+Advantages: 
+
+-much easier and faster to describe complex logic.
+
+-this modeling style is easier in using and understanding.
+
+Disadvantages:
+
+-synthesizer create optimized schemes and they can be not like you need.
+
+
+
+Question 2.2
+
+Advantages:
+
+-a more accurate circuit than in the behavioral style of writing.
+
+-synthesizer generates the same scheme described in the code.
+
+Disadvantages:
+
+-very large-volume projects.
+
+-Any small mistake leads to erratic operation of the circuit.
+
+
+
+Question 2.3
+
+To describe some standart cells, blocks, use behavioral design style. But also some designers use struct design style when they want to 
+describe some scheme which synthesizer can`t build right. And designer can combine this styles in project. 
+
+
+
+Question 2.4
+
+Generate construct is more powerful than conditional compilation with `ifdef statement, 
+because generate may allow (if, case) and for-loops. And generate construct more comfortable than `ifdef to describe,
+some param modules.
